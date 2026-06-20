@@ -13,7 +13,7 @@ public class HelloController {
     @GetMapping("/hello")
     public HelloResponse hello(){
         System.out.println("Hello");
-        return new HelloResponse("contact info found");
+        return new HelloResponse("feature changes for PR");
     }
 
     @PostMapping("hello")
