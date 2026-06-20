@@ -16,6 +16,12 @@ public class HelloController {
         return new HelloResponse("feature changes for PR");
     }
 
+    @GetMapping("/contact")
+    public HelloResponse contact(){
+        return new HelloResponse("stash contact");
+    }
+
+
     @PostMapping("hello")
     public HelloResponse helloPost(@RequestBody String name){
         return new HelloResponse("Hello " + name + "!");
