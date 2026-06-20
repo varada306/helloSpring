@@ -18,7 +18,7 @@ public class HelloController {
 
     @GetMapping("/contact")
     public HelloResponse contact(){
-        return new HelloResponse("stash contact");
+        return new HelloResponse("another user made changes");
     }
 
 
